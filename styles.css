@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(—Pngtree—cool\ wave\ liquid\ background\ for_1917195.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#lp{
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+#Lcontent
+{
+    margin-right: 650px;
+    margin-top: 100px;
+    width:40%;
+    text-align: center;
+    border-radius: 30px;
+    border:2px solid #000000
+
+}
+#ML
+{
+    margin: 10px;
+    margin-left: 50px ;
+}
+nav {
+    background-color: #000000;
+    width: 100%;
+    height: 25px;
+    padding: 1em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px;
+    margin: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#content {
+    width: 80%;
+    margin:5em auto;
+     
+}
+#c
+{
+    padding: 10px;
+    margin-bottom: 50px;
+    border: 2px solid #333333;
+    border-radius: 30px;
+    width: 600px;
+    margin-left:220px ;
+    text-align: center;
+}
+
+.category-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.category-box {
+    width: 200px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #d0f9fc;
+    border: 1px solid #333333;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+.category-box:hover {
+    background-color: #63ddff;
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.category-box h3 {
+    margin: 0;
+}
+
+.category-box p {
+    margin: 10px 0;
+}
+
+button {
+    padding: 0.5em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #555;
+}
+footer{
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+#foot
+{
+    position:absolute;
+}
